@@ -8,4 +8,4 @@ En este proyecto se ah utilizado React con typescript y swc, además de Vite com
 
 ## Deply web
 
-Se ha utilizado netlify como deploy de esta web, el enlace es el siguiente: https://app.netlify.com/sites/eclectic-baklava-955bab/deploys/662b85e4cd3a97b099c8c8f8
+Se ha utilizado netlify como deploy de esta web, el enlace es el siguiente: https://662b85e4cd3a97b099c8c8f8--eclectic-baklava-955bab.netlify.app/
