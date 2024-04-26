@@ -1,31 +1,7 @@
-# React + TypeScript + Vite
+# Calculadora de propinas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Calculadora de propinas, en esta aplicacion se tiene un menú de platos, y se van recogiendo en la orden lo que el cliente desea. Leugo de escoger los platos que desee, se tiene la posibilidad de dejar un 10, 20 o 50% de propinas. En la orden se recoge el coste de los platos del menu escogidos a pagar, asi como lo que se desea dejar de propina. Por último se recoge el total a pagar.
 
-Currently, two official plugins are available:
+## Tech stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# calculador_propinas
+En este proyecto se ah utilizado react con typescript y swc. Para los estilos se ha utilizado tailwindcss.
